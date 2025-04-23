@@ -54,7 +54,7 @@
 
 14. SeManageVolumePrivilege --> google abuse --> "Get full control over C:\ when the user has SeManageVolumePrivilege (allowing to read/write any files). One possible way to get a shell from here is to write a custom dll to C:\Windows\System32\wbem\tzres.dll & call systeminfo to trigger it."
 
-15. get SeManageVolumeExploit.exe and upload to machine --> Run the executate --> can write to C:\ drive
+15. get SeManageVolumeExploit.exe and upload to machine --> Run .exe --> can write to C:\ drive
 
 16. msfvenom generate payload tzres.dll, upload to C:\Windows\System32\wbem --> call systeminfo --> PrivEsc
 
