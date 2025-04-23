@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/e3b85b28-14bc-4889-b5c6-e35f74ac6de4)
 ![image](https://github.com/user-attachments/assets/dd4b85ba-eb60-4fcf-ba7b-b3772fe504e6)
 
-ajust to python3 -- added lower case ‘b’ before the open double quotation, change print statment to print()
+ajust to python3 -- add lower case ‘b’ before the open double quotation, change print statment to print()
 
 Hmmm... no reverse shell.....
 
