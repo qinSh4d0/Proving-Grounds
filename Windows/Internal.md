@@ -14,4 +14,8 @@ ajust to python3 -- added lower case ‘b’ before the open double quotation, c
 
 Hmmm... no reverse shell.....
 
+Metasploit
+
+![image](https://github.com/user-attachments/assets/d80a2382-ebee-491c-9a77-59e6274fedc9)
+![image](https://github.com/user-attachments/assets/a62174a4-8f30-47a0-a9e3-6997ba42ddf4)
 
