@@ -37,6 +37,12 @@
    
 3. systeminfo --> x64-based PC ---> upload nc64.exe & get reverse shell
 
-4. whoami /priv --> SeImpersionatePrivilege Enabled
+4. first get reverse shell, basic commands get "Command not found" error --> %PATH% environment variable not set with good defauts.
+   
+   ```bash
+   set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;
+   ``` 
 
-5. Try various Potato.exe  ---> SharpEfsPotato.exe work ---> PE to SYSTEM
+6. whoami /priv --> SeImpersionatePrivilege Enabled
+
+7. Try various Potato.exe  ---> SharpEfsPotato.exe work ---> PE to SYSTEM
