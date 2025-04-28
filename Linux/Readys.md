@@ -29,12 +29,10 @@
 ![image](https://github.com/user-attachments/assets/c78831d0-3da7-4447-abc1-caa9a44f1b18)
 ![image](https://github.com/user-attachments/assets/fecc6a50-c773-4e95-a088-e9d41d34c5e0)
 ![image](https://github.com/user-attachments/assets/9a0854be-5d8b-420b-9ede-94872d72e817)
-
 ![image](https://github.com/user-attachments/assets/6d4ef98c-0832-49ac-9a74-4062f54a219d)
-
+![image](https://github.com/user-attachments/assets/78796bbc-41ed-48d1-bf9e-37e55767a2ad)
 ![image](https://github.com/user-attachments/assets/c87489ac-ac30-40e7-94b5-6a0ca0182233)
-
-
+![image](https://github.com/user-attachments/assets/50c6dd0b-d48e-422a-b365-76188482d04f)
 
 
 1. WPScan -- get user admin
