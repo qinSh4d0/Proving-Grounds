@@ -28,7 +28,7 @@
 
 4. git-dumper --> obtain all of the source code
 
-5. bb-config.php --> get user name and password
+5. bb-config.php --> get admin_area_prefix,username and password
 
 6. git log --> get email address
 
