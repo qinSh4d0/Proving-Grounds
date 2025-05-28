@@ -327,7 +327,9 @@ Tier1Admin group only has one user: Molly.Smith
 ![image](https://github.com/user-attachments/assets/0ccaa8b2-c33b-432c-b8f8-725719c05903)
 
 Hmmm... Access is denied
-
+```
+To be continued
+```
 
 
 1. http ports 80,5985,8530,47001 --> brute force directory --> no useful info
