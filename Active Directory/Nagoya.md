@@ -216,7 +216,7 @@ While some versions of rpcclient might support changing passwords using setuseri
 
 20. already get svc_mssql username and password from previous steps, directory svc_mssql under C:\Users\ but initial port scan no mssql port 1433 open
 
-21. netstat -ano | findstr LISENTING --> check open ports --> port 1433 is listening
+21. netstat -ano | findstr LISTENING --> check open ports --> port 1433 is listening
 
 22. port forwarding:
 ````
